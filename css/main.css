@@ -1,0 +1,79 @@
+html{
+  min-height: 100%;
+}
+
+body {
+  background: #cfd8dc;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  line-height: 18px;
+  padding-top: 50px;
+}
+
+p {
+  color: black;
+  cursor: default;
+  margin: 50px auto 0;
+  /*text-shadow: 0px 1px 2px #000;*/
+}
+
+.container {
+  max-width: 480px;
+  padding: 0 20px;
+  display: block;
+  margin:  12.5% auto 0;
+  text-align: center;
+}
+
+.img-wrapper {
+  border-radius: 50em;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+  padding: 0;
+  height: auto;
+}
+
+.social-links {
+  margin: 50px auto 0;
+}
+
+.social-links a {
+  margin: 0 8px;
+}
+
+.socialicon {
+  font-size: 3.0em;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+
+}
+
+.socialicon:hover {
+  -webkit-transform:scale(1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* IE 9 */
+  -o-transform:scale(1.1); /* Opera */
+   transform:scale(1.1);
+}
+
+.linkedin {
+  color: #4875B4;
+}
+
+.github {
+  color: black;
+}
+
+.tumblr {
+  color: #36465d;
+}
+
+.mail {
+  color: #EDA41A;
+}
