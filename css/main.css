@@ -24,6 +24,7 @@ p {
   display: block;
   margin:  12.5% auto 0;
   text-align: center;
+  margin-bottom: 33px;
 }
 
 .img-wrapper {
@@ -41,7 +42,16 @@ p {
 }
 
 .social-links a {
+  text-decoration: none;
   margin: 0 8px;
+}
+
+a {
+  color: #0097A7;
+}
+
+a:hover, a:focus {
+  color: #00BCD4;
 }
 
 .socialicon {
